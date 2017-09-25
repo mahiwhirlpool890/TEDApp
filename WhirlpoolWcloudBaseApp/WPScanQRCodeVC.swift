@@ -219,7 +219,6 @@ class WPScanQRCodeVC: UIViewController,AVCaptureMetadataOutputObjectsDelegate {
                 if self.applianceSAID.length>0{
                     
                     saidFirstLetter = self.applianceSAID.substring(to: 1) as NSString
-                    
                 }
                 
                 if scannedString.uppercased.range(of: "GUI") != nil{
@@ -228,7 +227,14 @@ class WPScanQRCodeVC: UIViewController,AVCaptureMetadataOutputObjectsDelegate {
                 }
                 
                 isApplianceLCDCompatible = (saidFirstLetter?.isEqual(to: "3"))! && (!containsGUI_ID ? true:false)
-               // isApplicableForEZConnect = ([saidFirstLetter isEqualToString:@"3"] && !containsGUI_ID)?NO:YES;
+                
+                // Pushing view to WPConnectPhoneVC
+                
+                let storyboard:UIStoryboard = UIStoryboard.init(name: "Main", bundle: nil)
+                
+                let  objConnectPhone = storyboard.instantiateViewController(withIdentifier: "WPConnectPhoneVC")
+                
+                self.navigationController?.pushViewController(objConnectPhone, animated: true)
                 
             
             }else{

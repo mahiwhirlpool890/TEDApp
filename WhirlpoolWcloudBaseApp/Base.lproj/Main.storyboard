@@ -423,6 +423,24 @@
             </objects>
             <point key="canvasLocation" x="3589.5999999999999" y="-322.48875562218893"/>
         </scene>
+        <!--Connect PhoneVC-->
+        <scene sceneID="hDa-Rs-Zyz">
+            <objects>
+                <viewController storyboardIdentifier="WPConnectPhoneVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="5Aw-OQ-HlT" customClass="WPConnectPhoneVC" customModule="WhirlpoolWcloudBaseApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="iSr-Hm-I5p"/>
+                        <viewControllerLayoutGuide type="bottom" id="gCU-tQ-h4n"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hXm-PS-5tZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="i05-Kr-DSl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4255" y="-322"/>
+        </scene>
     </scenes>
     <resources>
         <image name="applianceImg" width="449" height="367"/>
