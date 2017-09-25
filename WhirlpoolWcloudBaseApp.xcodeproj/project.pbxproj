@@ -7,14 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42D19078A359870735494479 /* Pods_WhirlpoolWcloudBaseAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83F323967FA437999765129B /* Pods_WhirlpoolWcloudBaseAppTests.framework */; };
+		7DB7224007146B890184E8A4 /* Pods_WhirlpoolWcloudBaseApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C822073D5F0CFFCC199DD705 /* Pods_WhirlpoolWcloudBaseApp.framework */; };
+		A603BFAA1F62D1C4000A13EA /* NetworkStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A603BFA91F62D1C4000A13EA /* NetworkStore.swift */; };
+		A66475CD1F62D51600949CAA /* NetworkCallController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66475CC1F62D51600949CAA /* NetworkCallController.swift */; };
+		A689BA041F66B34B0066594B /* ProgressBarUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = A689BA031F66B34B0066594B /* ProgressBarUtility.swift */; };
 		A6A05E971F62C927009659F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A05E961F62C927009659F0 /* AppDelegate.swift */; };
-		A6A05E991F62C927009659F0 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A05E981F62C927009659F0 /* FirstViewController.swift */; };
-		A6A05E9B1F62C927009659F0 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A05E9A1F62C927009659F0 /* SecondViewController.swift */; };
+		A6A05E991F62C927009659F0 /* WPLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A05E981F62C927009659F0 /* WPLoginViewController.swift */; };
 		A6A05E9E1F62C927009659F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6A05E9C1F62C927009659F0 /* Main.storyboard */; };
 		A6A05EA01F62C927009659F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6A05E9F1F62C927009659F0 /* Assets.xcassets */; };
 		A6A05EA31F62C927009659F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6A05EA11F62C927009659F0 /* LaunchScreen.storyboard */; };
 		A6A05EAE1F62C927009659F0 /* WhirlpoolWcloudBaseAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A05EAD1F62C927009659F0 /* WhirlpoolWcloudBaseAppTests.swift */; };
 		A6A05EB91F62C927009659F0 /* WhirlpoolWcloudBaseAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A05EB81F62C927009659F0 /* WhirlpoolWcloudBaseAppUITests.swift */; };
+		D58C255640F9528727641DC8 /* Pods_WhirlpoolWcloudBaseAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7750857CF290072BBCF9A0B0 /* Pods_WhirlpoolWcloudBaseAppUITests.framework */; };
+		D81128791F7277570042AADB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D81128781F7277570042AADB /* GoogleService-Info.plist */; };
+		D811287C1F72A4710042AADB /* WPNSMutableAttributedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = D811287B1F72A4710042AADB /* WPNSMutableAttributedString.swift */; };
+		D83B73E21F74F66F0099A2A2 /* WPFindQRCodeImageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83B73E11F74F66F0099A2A2 /* WPFindQRCodeImageVC.swift */; };
+		D83B73E41F7509380099A2A2 /* WPScanQRCodeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83B73E31F7509380099A2A2 /* WPScanQRCodeVC.swift */; };
+		D89547E91F73C87B00BCB320 /* WPConfigurePopupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89547E81F73C87B00BCB320 /* WPConfigurePopupVC.swift */; };
+		D89547EB1F73D7A900BCB320 /* WPUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89547EA1F73D7A900BCB320 /* WPUtility.swift */; };
+		D89F666F1F79224B003F6791 /* WPConnectPhoneVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89F666E1F79224B003F6791 /* WPConnectPhoneVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +47,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		56F431D3936B2232FEC0ABA7 /* Pods-WhirlpoolWcloudBaseAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhirlpoolWcloudBaseAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WhirlpoolWcloudBaseAppUITests/Pods-WhirlpoolWcloudBaseAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D85597BF5D74D0EB31B802E /* Pods-WhirlpoolWcloudBaseAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhirlpoolWcloudBaseAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WhirlpoolWcloudBaseAppTests/Pods-WhirlpoolWcloudBaseAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		721E8B0113A70D1A075EF70E /* Pods-WhirlpoolWcloudBaseAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhirlpoolWcloudBaseAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WhirlpoolWcloudBaseAppTests/Pods-WhirlpoolWcloudBaseAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		7750857CF290072BBCF9A0B0 /* Pods_WhirlpoolWcloudBaseAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhirlpoolWcloudBaseAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83F323967FA437999765129B /* Pods_WhirlpoolWcloudBaseAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhirlpoolWcloudBaseAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		840B6441BB5B344BAC261360 /* Pods-WhirlpoolWcloudBaseApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhirlpoolWcloudBaseApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WhirlpoolWcloudBaseApp/Pods-WhirlpoolWcloudBaseApp.debug.xcconfig"; sourceTree = "<group>"; };
+		A603BFA91F62D1C4000A13EA /* NetworkStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkStore.swift; sourceTree = "<group>"; };
+		A66475CC1F62D51600949CAA /* NetworkCallController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkCallController.swift; sourceTree = "<group>"; };
+		A689BA031F66B34B0066594B /* ProgressBarUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressBarUtility.swift; sourceTree = "<group>"; };
 		A6A05E931F62C927009659F0 /* WhirlpoolWcloudBaseApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhirlpoolWcloudBaseApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6A05E961F62C927009659F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A6A05E981F62C927009659F0 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		A6A05E9A1F62C927009659F0 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		A6A05E981F62C927009659F0 /* WPLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WPLoginViewController.swift; sourceTree = "<group>"; };
 		A6A05E9D1F62C927009659F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A6A05E9F1F62C927009659F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6A05EA21F62C927009659F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +69,17 @@
 		A6A05EB41F62C927009659F0 /* WhirlpoolWcloudBaseAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhirlpoolWcloudBaseAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6A05EB81F62C927009659F0 /* WhirlpoolWcloudBaseAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhirlpoolWcloudBaseAppUITests.swift; sourceTree = "<group>"; };
 		A6A05EBA1F62C927009659F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA386C0BA27F3C2F6B7B6207 /* Pods-WhirlpoolWcloudBaseApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhirlpoolWcloudBaseApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-WhirlpoolWcloudBaseApp/Pods-WhirlpoolWcloudBaseApp.release.xcconfig"; sourceTree = "<group>"; };
+		C822073D5F0CFFCC199DD705 /* Pods_WhirlpoolWcloudBaseApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhirlpoolWcloudBaseApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0428FD8DEAD5443CD10106B /* Pods-WhirlpoolWcloudBaseAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhirlpoolWcloudBaseAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WhirlpoolWcloudBaseAppUITests/Pods-WhirlpoolWcloudBaseAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D81128781F7277570042AADB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D811287A1F7280520042AADB /* WhirlpoolWcloudBase-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WhirlpoolWcloudBase-Bridging-Header.h"; sourceTree = "<group>"; };
+		D811287B1F72A4710042AADB /* WPNSMutableAttributedString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WPNSMutableAttributedString.swift; sourceTree = "<group>"; };
+		D83B73E11F74F66F0099A2A2 /* WPFindQRCodeImageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WPFindQRCodeImageVC.swift; sourceTree = "<group>"; };
+		D83B73E31F7509380099A2A2 /* WPScanQRCodeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WPScanQRCodeVC.swift; sourceTree = "<group>"; };
+		D89547E81F73C87B00BCB320 /* WPConfigurePopupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WPConfigurePopupVC.swift; sourceTree = "<group>"; };
+		D89547EA1F73D7A900BCB320 /* WPUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WPUtility.swift; sourceTree = "<group>"; };
+		D89F666E1F79224B003F6791 /* WPConnectPhoneVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WPConnectPhoneVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DB7224007146B890184E8A4 /* Pods_WhirlpoolWcloudBaseApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42D19078A359870735494479 /* Pods_WhirlpoolWcloudBaseAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +103,76 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D58C255640F9528727641DC8 /* Pods_WhirlpoolWcloudBaseAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		62C0AD8681FEECEDCD12CEFE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C822073D5F0CFFCC199DD705 /* Pods_WhirlpoolWcloudBaseApp.framework */,
+				83F323967FA437999765129B /* Pods_WhirlpoolWcloudBaseAppTests.framework */,
+				7750857CF290072BBCF9A0B0 /* Pods_WhirlpoolWcloudBaseAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A603BFA21F62CE64000A13EA /* AppControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A6A05E961F62C927009659F0 /* AppDelegate.swift */,
+			);
+			name = AppControllers;
+			sourceTree = "<group>";
+		};
+		A603BFA31F62CE81000A13EA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D89547E71F73C81500BCB320 /* SetupForS2C */,
+				D89547E61F73C79E00BCB320 /* Login */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		A603BFA41F62CE8C000A13EA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D811287B1F72A4710042AADB /* WPNSMutableAttributedString.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		A603BFA51F62CE96000A13EA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A6A05E9C1F62C927009659F0 /* Main.storyboard */,
+				A6A05EA11F62C927009659F0 /* LaunchScreen.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		A603BFA61F62CE9C000A13EA /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D811287A1F7280520042AADB /* WhirlpoolWcloudBase-Bridging-Header.h */,
+				A689BA031F66B34B0066594B /* ProgressBarUtility.swift */,
+				D89547EA1F73D7A900BCB320 /* WPUtility.swift */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		A603BFA71F62CEC1000A13EA /* NetworkControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A603BFA91F62D1C4000A13EA /* NetworkStore.swift */,
+				A66475CC1F62D51600949CAA /* NetworkCallController.swift */,
+			);
+			name = NetworkControllers;
+			sourceTree = "<group>";
+		};
 		A6A05E8A1F62C927009659F0 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +180,8 @@
 				A6A05EAC1F62C927009659F0 /* WhirlpoolWcloudBaseAppTests */,
 				A6A05EB71F62C927009659F0 /* WhirlpoolWcloudBaseAppUITests */,
 				A6A05E941F62C927009659F0 /* Products */,
+				CBA816312F245D9542AA54E5 /* Pods */,
+				62C0AD8681FEECEDCD12CEFE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +198,15 @@
 		A6A05E951F62C927009659F0 /* WhirlpoolWcloudBaseApp */ = {
 			isa = PBXGroup;
 			children = (
-				A6A05E961F62C927009659F0 /* AppDelegate.swift */,
-				A6A05E981F62C927009659F0 /* FirstViewController.swift */,
-				A6A05E9A1F62C927009659F0 /* SecondViewController.swift */,
-				A6A05E9C1F62C927009659F0 /* Main.storyboard */,
+				A603BFA21F62CE64000A13EA /* AppControllers */,
+				A603BFA31F62CE81000A13EA /* Controllers */,
+				A603BFA71F62CEC1000A13EA /* NetworkControllers */,
+				A603BFA51F62CE96000A13EA /* Views */,
+				A603BFA41F62CE8C000A13EA /* Models */,
+				A603BFA61F62CE9C000A13EA /* Utilities */,
 				A6A05E9F1F62C927009659F0 /* Assets.xcassets */,
-				A6A05EA11F62C927009659F0 /* LaunchScreen.storyboard */,
 				A6A05EA41F62C927009659F0 /* Info.plist */,
+				D81128781F7277570042AADB /* GoogleService-Info.plist */,
 			);
 			path = WhirlpoolWcloudBaseApp;
 			sourceTree = "<group>";
@@ -128,6 +229,38 @@
 			path = WhirlpoolWcloudBaseAppUITests;
 			sourceTree = "<group>";
 		};
+		CBA816312F245D9542AA54E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				840B6441BB5B344BAC261360 /* Pods-WhirlpoolWcloudBaseApp.debug.xcconfig */,
+				BA386C0BA27F3C2F6B7B6207 /* Pods-WhirlpoolWcloudBaseApp.release.xcconfig */,
+				6D85597BF5D74D0EB31B802E /* Pods-WhirlpoolWcloudBaseAppTests.debug.xcconfig */,
+				721E8B0113A70D1A075EF70E /* Pods-WhirlpoolWcloudBaseAppTests.release.xcconfig */,
+				56F431D3936B2232FEC0ABA7 /* Pods-WhirlpoolWcloudBaseAppUITests.debug.xcconfig */,
+				D0428FD8DEAD5443CD10106B /* Pods-WhirlpoolWcloudBaseAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D89547E61F73C79E00BCB320 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				A6A05E981F62C927009659F0 /* WPLoginViewController.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		D89547E71F73C81500BCB320 /* SetupForS2C */ = {
+			isa = PBXGroup;
+			children = (
+				D89547E81F73C87B00BCB320 /* WPConfigurePopupVC.swift */,
+				D83B73E11F74F66F0099A2A2 /* WPFindQRCodeImageVC.swift */,
+				D83B73E31F7509380099A2A2 /* WPScanQRCodeVC.swift */,
+				D89F666E1F79224B003F6791 /* WPConnectPhoneVC.swift */,
+			);
+			name = SetupForS2C;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +268,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A6A05EBD1F62C927009659F0 /* Build configuration list for PBXNativeTarget "WhirlpoolWcloudBaseApp" */;
 			buildPhases = (
+				B2A4CC9FF6D6091A4B197424 /* [CP] Check Pods Manifest.lock */,
 				A6A05E8F1F62C927009659F0 /* Sources */,
 				A6A05E901F62C927009659F0 /* Frameworks */,
 				A6A05E911F62C927009659F0 /* Resources */,
+				959C8E5BA6C464751A68E607 /* [CP] Embed Pods Frameworks */,
+				57AE4B7B1E154F7632BE1B16 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +288,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A6A05EC01F62C927009659F0 /* Build configuration list for PBXNativeTarget "WhirlpoolWcloudBaseAppTests" */;
 			buildPhases = (
+				03BCF4FB4719F57A71F443B0 /* [CP] Check Pods Manifest.lock */,
 				A6A05EA51F62C927009659F0 /* Sources */,
 				A6A05EA61F62C927009659F0 /* Frameworks */,
 				A6A05EA71F62C927009659F0 /* Resources */,
+				152EC33A9EB823864121B205 /* [CP] Embed Pods Frameworks */,
+				2C8D7FADB6008894BFD39201 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +309,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A6A05EC31F62C927009659F0 /* Build configuration list for PBXNativeTarget "WhirlpoolWcloudBaseAppUITests" */;
 			buildPhases = (
+				7DBEE958C33EEEC87BA1670D /* [CP] Check Pods Manifest.lock */,
 				A6A05EB01F62C927009659F0 /* Sources */,
 				A6A05EB11F62C927009659F0 /* Frameworks */,
 				A6A05EB21F62C927009659F0 /* Resources */,
+				C1E11BADEE2C70D813B36182 /* [CP] Embed Pods Frameworks */,
+				EDA5D6F53EEC2D52672E3BEB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -191,20 +333,24 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = whirlpool;
 				TargetAttributes = {
 					A6A05E921F62C927009659F0 = {
 						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 47G2GPXQ4K;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					A6A05EA81F62C927009659F0 = {
 						CreatedOnToolsVersion = 8.3.1;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 						TestTargetID = A6A05E921F62C927009659F0;
 					};
 					A6A05EB31F62C927009659F0 = {
 						CreatedOnToolsVersion = 8.3.1;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 						TestTargetID = A6A05E921F62C927009659F0;
 					};
@@ -236,6 +382,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6A05EA31F62C927009659F0 /* LaunchScreen.storyboard in Resources */,
+				D81128791F7277570042AADB /* GoogleService-Info.plist in Resources */,
 				A6A05EA01F62C927009659F0 /* Assets.xcassets in Resources */,
 				A6A05E9E1F62C927009659F0 /* Main.storyboard in Resources */,
 			);
@@ -257,14 +404,160 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		03BCF4FB4719F57A71F443B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		152EC33A9EB823864121B205 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WhirlpoolWcloudBaseAppTests/Pods-WhirlpoolWcloudBaseAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C8D7FADB6008894BFD39201 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WhirlpoolWcloudBaseAppTests/Pods-WhirlpoolWcloudBaseAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57AE4B7B1E154F7632BE1B16 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WhirlpoolWcloudBaseApp/Pods-WhirlpoolWcloudBaseApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7DBEE958C33EEEC87BA1670D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		959C8E5BA6C464751A68E607 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WhirlpoolWcloudBaseApp/Pods-WhirlpoolWcloudBaseApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2A4CC9FF6D6091A4B197424 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C1E11BADEE2C70D813B36182 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WhirlpoolWcloudBaseAppUITests/Pods-WhirlpoolWcloudBaseAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDA5D6F53EEC2D52672E3BEB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WhirlpoolWcloudBaseAppUITests/Pods-WhirlpoolWcloudBaseAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A6A05E8F1F62C927009659F0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6A05E9B1F62C927009659F0 /* SecondViewController.swift in Sources */,
+				A66475CD1F62D51600949CAA /* NetworkCallController.swift in Sources */,
+				A603BFAA1F62D1C4000A13EA /* NetworkStore.swift in Sources */,
+				D83B73E21F74F66F0099A2A2 /* WPFindQRCodeImageVC.swift in Sources */,
+				A689BA041F66B34B0066594B /* ProgressBarUtility.swift in Sources */,
+				D811287C1F72A4710042AADB /* WPNSMutableAttributedString.swift in Sources */,
+				D89547E91F73C87B00BCB320 /* WPConfigurePopupVC.swift in Sources */,
+				D89F666F1F79224B003F6791 /* WPConnectPhoneVC.swift in Sources */,
+				D83B73E41F7509380099A2A2 /* WPScanQRCodeVC.swift in Sources */,
+				D89547EB1F73D7A900BCB320 /* WPUtility.swift in Sources */,
 				A6A05E971F62C927009659F0 /* AppDelegate.swift in Sources */,
-				A6A05E991F62C927009659F0 /* FirstViewController.swift in Sources */,
+				A6A05E991F62C927009659F0 /* WPLoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,7 +622,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -337,7 +632,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -360,7 +659,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -380,7 +679,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -388,7 +689,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -405,7 +710,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -416,30 +721,39 @@
 		};
 		A6A05EBE1F62C927009659F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 840B6441BB5B344BAC261360 /* Pods-WhirlpoolWcloudBaseApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 47G2GPXQ4K;
 				INFOPLIST_FILE = WhirlpoolWcloudBaseApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.whirlpool.development.WhirlpoolWcloudBaseApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.whirlpool.wcloudBaseApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
 		A6A05EBF1F62C927009659F0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA386C0BA27F3C2F6B7B6207 /* Pods-WhirlpoolWcloudBaseApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 47G2GPXQ4K;
 				INFOPLIST_FILE = WhirlpoolWcloudBaseApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.whirlpool.development.WhirlpoolWcloudBaseApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.whirlpool.wcloudBaseApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
 		A6A05EC11F62C927009659F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D85597BF5D74D0EB31B802E /* Pods-WhirlpoolWcloudBaseAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -447,13 +761,15 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.whirlpool.development.WhirlpoolWcloudBaseAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhirlpoolWcloudBaseApp.app/WhirlpoolWcloudBaseApp";
 			};
 			name = Debug;
 		};
 		A6A05EC21F62C927009659F0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 721E8B0113A70D1A075EF70E /* Pods-WhirlpoolWcloudBaseAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -461,33 +777,38 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.whirlpool.development.WhirlpoolWcloudBaseAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhirlpoolWcloudBaseApp.app/WhirlpoolWcloudBaseApp";
 			};
 			name = Release;
 		};
 		A6A05EC41F62C927009659F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56F431D3936B2232FEC0ABA7 /* Pods-WhirlpoolWcloudBaseAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = WhirlpoolWcloudBaseAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.whirlpool.development.WhirlpoolWcloudBaseAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_TARGET_NAME = WhirlpoolWcloudBaseApp;
 			};
 			name = Debug;
 		};
 		A6A05EC51F62C927009659F0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0428FD8DEAD5443CD10106B /* Pods-WhirlpoolWcloudBaseAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = WhirlpoolWcloudBaseAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.whirlpool.development.WhirlpoolWcloudBaseAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 				TEST_TARGET_NAME = WhirlpoolWcloudBaseApp;
 			};
 			name = Release;
@@ -511,6 +832,7 @@
 				A6A05EBF1F62C927009659F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A6A05EC01F62C927009659F0 /* Build configuration list for PBXNativeTarget "WhirlpoolWcloudBaseAppTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +841,7 @@
 				A6A05EC21F62C927009659F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A6A05EC31F62C927009659F0 /* Build configuration list for PBXNativeTarget "WhirlpoolWcloudBaseAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +850,7 @@
 				A6A05EC51F62C927009659F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

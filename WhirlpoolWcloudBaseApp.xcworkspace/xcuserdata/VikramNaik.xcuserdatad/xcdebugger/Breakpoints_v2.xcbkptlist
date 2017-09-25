@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WhirlpoolWcloudBaseApp/NetworkCallController.swift"
+            timestampString = "526816230.194943"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "loginWith(email:password:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WhirlpoolWcloudBaseApp/NetworkCallController.swift"
+            timestampString = "526816230.194943"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "loginWith(email:password:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WhirlpoolWcloudBaseApp/NetworkCallController.swift"
+            timestampString = "526816230.194943"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "sharedInstance"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WhirlpoolWcloudBaseApp/NetworkCallController.swift"
+            timestampString = "526816230.194943"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "init(enviornment:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WhirlpoolWcloudBaseApp/NetworkCallController.swift"
+            timestampString = "526816230.194943"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "sharedInstance"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static WhirlpoolWcloudBaseApp.NetworkCallController.(sharedInstance.getter : WhirlpoolWcloudBaseApp.NetworkCallController).(Singleton #1).instance.unsafeMutableAddressor : WhirlpoolWcloudBaseApp.NetworkCallController"
+                  moduleName = "WhirlpoolWcloudBaseApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/HD%20Projects/Wcloud/WhirlpoolWcloudBaseApp/WhirlpoolWcloudBaseApp/NetworkCallController.swift"
+                  timestampString = "526902410.700813"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "globalinit_33_47367222F1C80CC9B4BB78820E4BC919_func0"
+                  moduleName = "WhirlpoolWcloudBaseApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/HD%20Projects/Wcloud/WhirlpoolWcloudBaseApp/WhirlpoolWcloudBaseApp/NetworkCallController.swift"
+                  timestampString = "526902410.702004"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "4">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WhirlpoolWcloudBaseApp/FirstViewController.swift"
+            timestampString = "526828911.704334"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "LoginBtnClicked(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WhirlpoolWcloudBaseApp/NetworkCallController.swift"
+            timestampString = "526816554.441074"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "loginWith(email:password:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WhirlpoolWcloudBaseApp/FirstViewController.swift"
+            timestampString = "526828911.704334"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "viewWillAppear(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WhirlpoolWcloudBaseApp/FirstViewController.swift"
+            timestampString = "526828911.704334"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "FirstViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WhirlpoolWcloudBaseApp.FirstViewController.(progress in _6E9412E22522613ABA6514FAF94AB3F9).getter : Swift.ImplicitlyUnwrappedOptional&lt;RPCircularProgress.RPCircularProgress&gt;"
+                  moduleName = "WhirlpoolWcloudBaseApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/HD%20Projects/Wcloud/WhirlpoolWcloudBaseApp/WhirlpoolWcloudBaseApp/FirstViewController.swift"
+                  timestampString = "526902410.71152"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "35">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WhirlpoolWcloudBaseApp.FirstViewController.(progress in _6E9412E22522613ABA6514FAF94AB3F9).setter : Swift.ImplicitlyUnwrappedOptional&lt;RPCircularProgress.RPCircularProgress&gt;"
+                  moduleName = "WhirlpoolWcloudBaseApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/HD%20Projects/Wcloud/WhirlpoolWcloudBaseApp/WhirlpoolWcloudBaseApp/FirstViewController.swift"
+                  timestampString = "526902410.712892"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "65">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WhirlpoolWcloudBaseApp.FirstViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; WhirlpoolWcloudBaseApp.FirstViewController"
+                  moduleName = "WhirlpoolWcloudBaseApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/HD%20Projects/Wcloud/WhirlpoolWcloudBaseApp/WhirlpoolWcloudBaseApp/FirstViewController.swift"
+                  timestampString = "526902410.714292"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "58">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WhirlpoolWcloudBaseApp.FirstViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;WhirlpoolWcloudBaseApp.FirstViewController&gt;"
+                  moduleName = "WhirlpoolWcloudBaseApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/HD%20Projects/Wcloud/WhirlpoolWcloudBaseApp/WhirlpoolWcloudBaseApp/FirstViewController.swift"
+                  timestampString = "526902410.715461"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WhirlpoolWcloudBaseApp/ProgressBarUtility.swift"
+            timestampString = "526828907.285061"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "showThinProgressView(view:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WhirlpoolWcloudBaseApp/FirstViewController.swift"
+            timestampString = "526828921.39869"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "LoginBtnClicked(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WhirlpoolWcloudBaseApp/ProgressBarUtility.swift"
+            timestampString = "526829747.317929"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "getProgressViewforView(fromView:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WhirlpoolWcloudBaseApp.ProgressBarUtility.getProgressViewforView (fromView : __ObjC.UIView) -&gt; Swift.ImplicitlyUnwrappedOptional&lt;RPCircularProgress.RPCircularProgress&gt;"
+                  moduleName = "WhirlpoolWcloudBaseApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/HD%20Projects/Wcloud/WhirlpoolWcloudBaseApp/WhirlpoolWcloudBaseApp/ProgressBarUtility.swift"
+                  timestampString = "526902410.724008"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "19">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WhirlpoolWcloudBaseApp.ProgressBarUtility.getProgressViewforView (fromView : __ObjC.UIView) -&gt; Swift.ImplicitlyUnwrappedOptional&lt;RPCircularProgress.RPCircularProgress&gt;"
+                  moduleName = "WhirlpoolWcloudBaseApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/HD%20Projects/Wcloud/WhirlpoolWcloudBaseApp/WhirlpoolWcloudBaseApp/ProgressBarUtility.swift"
+                  timestampString = "526902410.7252"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "309">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WhirlpoolWcloudBaseApp/ProgressBarUtility.swift"
+            timestampString = "526829747.317929"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "getProgressViewforView(fromView:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WhirlpoolWcloudBaseApp/ProgressBarUtility.swift"
+            timestampString = "526829744.724741"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "getProgressViewforView(fromView:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WhirlpoolWcloudBaseApp/FirstViewController.swift"
+            timestampString = "526902408.424841"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "LoginBtnClicked(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WhirlpoolWcloudBaseApp/FirstViewController.swift"
+            timestampString = "526902411.977148"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "LoginBtnClicked(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

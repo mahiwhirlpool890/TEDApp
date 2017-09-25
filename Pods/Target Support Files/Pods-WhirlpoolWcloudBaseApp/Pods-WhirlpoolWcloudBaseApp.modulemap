@@ -1,0 +1,6 @@
+framework module Pods_WhirlpoolWcloudBaseApp {
+  umbrella header "Pods-WhirlpoolWcloudBaseApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
